@@ -30,13 +30,6 @@ p a{
     color: #f47458;
 }
 
-.signin{
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-}
-
 input {
     width: 100%;
     padding: 0.3rem 1rem;
@@ -51,4 +44,14 @@ input {
 
 .forgot-password{
     text-decoration: none;
+}
+
+.signin{
+    width: 65%;
+}
+
+@media screen and (max-width: 600px){
+    .signin{
+        width: 95%;
+    }
 }
