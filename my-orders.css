@@ -2,12 +2,6 @@
     width: 100%;
 }
 
-@media screen and (max-width: 600px){
-    .my-orders{
-        width: 90%;
-    }
-}
-
 .buttons button{
     border-radius: 50px;
     padding: .5rem;
@@ -21,30 +15,30 @@
     color: white;
 }
 
-.btn2{
-    background-color: #f57e63;
-    border: 1px solid #F47458;
-    color: white;
-}
-
-.btn1:hover, 
-.btn2:hover{
+.btn1:hover{
     background-color: #F47458;
 }
 
-.btn3{
+.btn2{
     background-color: white;
     border: 1px solid black;
     color: black;
 }
 
-.btn4{
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-}
-
-.btn3:hover, 
-.btn4:hover{
+.btn2:hover{
     background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 600px){
+    .my-orders{
+        width: 90%;
+    }
+    .card-top h5{
+        font-size: 1rem;
+        line-height: 12px;
+    }
+    .card-top h6{
+        font-size: .8rem;
+        line-height: 15px;
+    }
 }
