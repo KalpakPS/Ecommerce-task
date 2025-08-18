@@ -50,3 +50,8 @@
 .color-label:nth-child(4){
     background-color: #4B4B4B;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Inverts colors (e.g., white to black) */
+}
