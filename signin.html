@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body class="vh-100 d-flex align-items-center">
+   <div class="container h-75 border shadow bg-body-tertiary rounded" style="width: 65%;">
+        <div class="row h-100">
+            <div class="card border col-12 col-lg-6 position-relative px-5 py-3" style="height: 100%;">
+                <h2 class="my-4">Shoply</h2>
+                <p class="text-secondary">Welcome Back!!!</p>
+                <h1 class="fw-semibold">Sign in</h1>
+                <form action="product-list.html">
+                    <div class="my-3">
+                        <label for="email">Email</label> 
+                        <input type="email" required>
+                        <div class="d-flex justify-content-between">
+                            <label for="password">Password</label> 
+                            <a href="" class="forgot-password">Forgot Password?</a>
+                        </div>
+                        <input type="password" required>
+                    </div>   
+                    <div class="signin position-absolute">
+                        <button type="submit" class="btn rounded-5 px-4 my-3">SIGN IN ⇀</button>   
+                        <p>I don't have an account ? <a href="./signup.html">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="image col-lg-6 d-none d-lg-block">
+                <img class="w-100" src="./images/signin-img.png" alt="No image found">
+            </div>
+        </div>
+   </div>
+</body>
+</html>

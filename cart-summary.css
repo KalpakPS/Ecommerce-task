@@ -1,0 +1,31 @@
+.right-side input{
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 50px;
+    padding: .5rem;
+    width: 100%;
+}
+
+.right-side button{
+    border-radius: 50px;
+    padding: .5rem;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.cart-total{
+    background-color: #fea851;
+}
+
+.cart-total button{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.cart-total button:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.2);
+}
+

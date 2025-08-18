@@ -1,0 +1,39 @@
+/* navbar style start */
+
+.navbar-brand{
+    color: #f47458 !important;
+}
+
+.search-bar:focus{
+    border-color: #ffe8e6;
+    outline: none;
+    box-shadow: 0 0 10px rgb(244, 116, 88, 0.5);
+}
+
+.search-button{
+    border: 1px solid #f47458;
+    color: #f47458;
+}
+
+.search-button:hover{
+    background-color: #f47458;
+    color: white;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.nav-link i{
+    color: #f47458;
+}
+
+.nav-link:hover{
+    color: #f47458
+    ;
+}
+
+.navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 116, 88)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* navbar style end */

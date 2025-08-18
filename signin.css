@@ -1,0 +1,54 @@
+body{
+    background-color: #fffaf7;
+}
+
+h2{
+    color: #f47458;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+.btn{
+    background-color: #f47458;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #e66447;
+    color: white;
+}
+
+p a{
+    text-decoration: none;
+    color: #f47458;
+}
+
+.signin{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.image{
+    background-color: #ffede1;
+}
+
+.forgot-password{
+    text-decoration: none;
+}

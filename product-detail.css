@@ -1,0 +1,52 @@
+.product-detail{
+    background-color: white;
+    box-shadow: 0px 2px 15px rgb(244, 116, 88, 0.2)
+}
+
+h3 span{
+    font-weight: 300;
+    color: rgb(255, 43, 43);
+}
+
+.mrp{
+    font-size: .9rem;
+}
+
+.star i{
+    color: #f47458;
+}
+
+.star h6{
+    font-weight: 400;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.btn-1, .btn-2{
+    width: 40%;
+    padding: .7rem;
+    border-radius: 50px;
+}
+
+.color-label {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-label:nth-child(1){
+    background-color: #E7DAB7;
+}
+
+.color-label:nth-child(2){
+    background-color: #625F7A;
+}
+
+.color-label:nth-child(3){
+    background-color: #AFAEAC;
+}
+
+.color-label:nth-child(4){
+    background-color: #4B4B4B;
+}

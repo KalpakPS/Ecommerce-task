@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="product-detail.css">
+</head>
+<body>
+    <!-- navbar-start -->
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-semibold fs-3" href="product-list.html">Shoply</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+                <form class="d-flex w-50" role="search">
+                    <input class="search-bar form-control me-2 rounded-pill" type="search"
+                        placeholder="Search essentials, groceries and more..." aria-label="Search" />
+                    <button class="search-button btn rounded-pill" type="submit"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="signin.html">
+                            <i class="fa-regular fa-user"></i> Sign in/Sing up
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-orders.html">
+                            <i class="fa-solid fa-dolly"></i> My Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart-summary.html">
+                            <i class="fa-solid fa-cart-shopping"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar-end -->
+
+    <!-- product-detail start -->
+    <div class="container product-detail my-5 p-2 rounded-3">
+        <div class="row">
+            <div class="col-lg-5 col-12">
+                <img class="rounded-3" src="./images/Samsung_Galaxy_S24_.png" alt="">
+            </div>
+            <div class="col-lg-7 col-12 p-4">
+                <h4>Samsung Galaxy S24 5G AI Smartphone (Amber Yellow, 8GB, 128GB Storage)</h4>
+                <p>Samsung Galaxy S24 5G (Amber Yellow, 8GB RAM, 128GB Storage) – Experience the power 
+                    of AI with the stylish Galaxy S24. Packed with a brilliant display, lightning-fast 
+                    5G connectivity, advanced AI features, and a pro-grade camera system, it delivers 
+                    seamless performance for work, play, and creativity.
+                </p>
+                <h3 class="mt-4"><span>-41%</span> ₹43,799</h3>
+                <p class="text-secondary mrp mb-3">M.R.P.: <del>₹74,999</del> </p>
+                <div class="star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <h6>988 Reviews</h6>
+                </div>
+                <div class="container pt-2 pb-4">
+                    <h6>Select Color:</h6>
+                    <div class="d-flex gap-3">
+                        <label class="color-label border border-dark border-2"></label>
+                        <label class="color-label"></label>
+                        <label class="color-label"></label>
+                        <label class="color-label"></label>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around mt-4">
+                    <button type="button" class="btn btn-1 btn-warning">Buy Now</button>
+                    <a href="cart-summary.html" class="btn btn-2 btn-outline-warning">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product-detail end -->
+
+    <!-- footer-start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Resources -->
+                <div class="col-6 col-lg-4">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Find A Store</a></li>
+                        <li><a href="#">Become A Member</a></li>
+                        <li><a href="#">Product Advice</a></li>
+                        <li><a href="#">Send Us Feedback</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help -->
+                <div class="col-6 col-lg-4">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="col-6 col-lg-4">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Shoply</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Impact</a></li>
+                        <li><a href="#">Report a Concern</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="d-flex justify-content-between px-5 pt-3">
+            <p>© 2025 Shoply, Inc. All rights reserved</p>
+            <div class="bottom">
+                <a href="#">Guides</a> |
+                <a href="#">Terms of Sale</a> |
+                <a href="#">Terms of Use</a> |
+                <a href="#">Shoply Privacy Policy</a> |
+                <a href="#">Privacy Settings</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+</body>
+</html>

@@ -1,0 +1,9 @@
+Build a html template for Ecomm application 
+
+        =>signin (username|email,password)
+        =>signup(username,email,password,confirmpassword)
+        =>product-list.html
+        =>product-detail.html
+        =>cart-summary.html
+        =>my-orders.html
+        =>otp-verification.html
