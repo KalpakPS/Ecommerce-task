@@ -59,67 +59,71 @@
     <!-- cart summary start -->
     <div class="container-fluid my-5">
         <div class="row">
-            <div class="col-lg-9 col-12">
-                <h2>Shopping Cart</h2>
-                <h5><strong>1 item</strong> in your cart.</h5>
+            <div class="col-lg-9 col-md-12 col-12">
+                <h2 class="ps-2">Shopping Cart</h2>
+                <h6 class="ps-2"><strong>2 items</strong> in your cart.</h6>
                 <div class="container">
-                    <div class="row py-3 bg-white border rounded-4">
-                        <div class="col-lg-3 ">
+                    <div class="row py-3 bg-white border rounded-4 text-lg-start">
+                        <div class="col-lg-3 col-md-6 col-12">
                             <img class="w-100 rounded-4" src="./images/Samsung_Galaxy_S24_.png" alt="No image found">
                         </div>
 
-                        <div class="col-lg-4 d-flex flex-column justify-content-center">
+                        <div class="col-lg-3 col-md-6 col-12 mt-md-4 mt-4 d-flex flex-column justify-content-center">
                             <h6>Mobile</h6>
                             <h5>Samsung Galaxy S24 </h5>
                             <h6>Color : Amber Yellow</h6>
                             <h6>Size : 128GB</h6>
                         </div>
 
-                        <div class="col-lg-1 d-flex align-items-center">
+                        <div class="col-lg-2 col-md-4 col-12 mt-md-4 mt-3 d-flex align-items-center justify-content-md-center">
                             <h5>₹43,799</h5>
                         </div>
 
-                        <div class="col-lg-2 d-flex align-items-center justify-content-center">
+                        <div class="col-lg-2 col-md-4 col-12 mt-md-4 mt-3 d-flex align-items-center justify-content-md-center">
                             <button  type="button" class="btn btn-outline-dark">-</button>
-                            <h5 class="px-3">1</h5>
+                            <h5 class="px-3">2</h5>
                             <button type="button" class="btn btn-outline-dark">+</button>
                         </div>
 
-                        <div class="col-lg-2 d-flex align-items-center">
-                            <h4>₹43,799</h4>
+                        <div class="col-lg-2 col-md-4 col-12 mt-md-4 mt-3 d-flex align-items-center justify-content-md-center">
+                            <h4 class="fw-semibold">₹87,598</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right-side col-lg-3 col-md-3 col-12 border bg-white rounded-4 p-3">
-                <h5 class="fw-semibold">Coupon Code</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo animi nisi nihil commodi quod asperiores quidem iusto.</p>
-                <input type="text" placeholder="Coupon Code">
-                <button class="mt-4">Apply</button>
 
-                <!-- cart total -->
-                <div class="cart-total mt-3 border rounded-4 p-3">
-                    <h5 class="mb-3 fw-semibold">Cart Total</h5>
-                    <div class="d-flex justify-content-between">
-                        <h6>Cart Subtotal</h6>
-                        <h6>₹43,799</h6>
-                    </div>
+            <!-- coupon code and payment -->
+            <div class="right-side col-lg-3 col-md-12 col-12 mt-md-4 mt-4 mx-auto ">
+                <div class="container border bg-white rounded-4 p-3">
+                    <h5 class="fw-semibold">Coupon Code</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo animi nisi nihil commodi quod asperiores quidem iusto.</p>
+                    <input type="text" placeholder="Coupon Code">
+                    <button class="mt-4">Apply</button>
 
-                    <div class="d-flex justify-content-between">
-                        <h6>Delivery Fee</h6>
-                        <h6>Free</h6>
+                    <!-- cart total -->
+                    <div class="cart-total mt-3 border rounded-4 p-3">
+                        <h5 class="mb-3 fw-semibold">Cart Total</h5>
+                        <div class="d-flex justify-content-between">
+                            <h6>Cart Subtotal</h6>
+                            <h6>₹87,598</h6>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <h6>Delivery Fee</h6>
+                            <h6>Free</h6>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between">
+                            <h6>Discount</h6>
+                            <h6 class="text-white">-₹5000</h6>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between">
+                            <h6>Cart Total</h6>
+                            <h6 class="fw-semibold">₹82,598</h6>
+                        </div>
+                        <button class="mt-4"><strong>Proceed to Pay</strong> <i class="fa-solid fa-credit-card"></i></button>
                     </div>
-                    
-                    <div class="d-flex justify-content-between">
-                        <h6>Discount</h6>
-                        <h6 class="text-white">-₹2000</h6>
-                    </div>
-                    
-                    <div class="d-flex justify-content-between">
-                        <h6>Cart Total</h6>
-                        <h6>₹41,799</h6>
-                    </div>
-                    <button class="mt-4"><strong>Proceed to Pay</strong></button>
                 </div>
             </div>
         </div>
